@@ -1,0 +1,32 @@
+<div class="container">
+    <h2 id="header-op"></h2>
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Order Date</th>
+                <th>Product Code</th>
+                <th>Product Detail</th>
+                <th>Quantity</th>
+                <th>Unit</th>
+                <th>Operation</th>
+            </tr>
+        </thead>
+        <tbody id="tbody-op"></tbody>
+    </table>
+</div>
+<div class="modal fade" id="goodsPositionModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title">Positions</h3>
+            </div>
+            <div class="modal-body" id="pos-graph"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="confirm-op"></button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/operator.js"></script>

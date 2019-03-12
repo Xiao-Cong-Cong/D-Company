@@ -1,0 +1,30 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal"><span>&times;</span></button>
+            <h3 class="modal-title">New Importation Order</h3>
+        </div>
+        <div class="modal-body">
+            <div class="form">
+                <input type="hidden" name="id">
+                <div class="form-group">
+                    <label>Warehouse</label> <select class="form-control" name="whouse3" disabled></select>
+                </div>
+                <div class="form-group">
+                    <label>Item</label> <select class="form-control" name="item3" disabled></select>
+                </div>
+                <div class="form-group">
+                    <label>Quantity</label> <input type="number" class="form-control" name="qty3" value="0" placeholder="positive value for storage, negative for retrieval">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-md-8" id="erroInfo3"></div>
+            <div class="col-md-4">
+                <button class="btn btn-success" id="confirmNewImportation">Confirm</button>
+                <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/tabs/newImportation.js"></script>

@@ -1,0 +1,66 @@
+.tab:hover,
+.edit:hover,
+.import:hover,
+#logout:hover,
+.pills {
+    cursor: pointer;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+.edit {
+  display: none;
+}
+
+td.gezi {
+  border: 1px solid;
+  width: 5px;
+  height: 5px;
+}
+
+#erroInfo,
+#erroInfo2,
+#erroInfo3 {
+  text-align: left;
+  color: red;
+}
+
+input[name="immediateEdit"] {
+  height: 20px;
+  width: 100px;
+}
+
+.import,
+.importNum {
+  color: lightgrey;
+}
+
+.occupied {
+  background-color: lightgrey;
+}
+
+.selected {
+  background-color: seagreen;
+}
+
+.suggested {
+  background-color: orange;
+}
+
+.searchMatch {
+  color: red;
+}
+
+.itemNum {
+  width: 150px;
+  height: 22px;
+}
+
+.plus:hover {
+  color: red;
+}
