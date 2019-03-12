@@ -1,0 +1,54 @@
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button class="close" data-dismiss="modal"><span>&times;</span></button>
+            <h3 class="modal-title">New Item</h3>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label>Code</label>
+                <input type="text" class="form-control" name="code">
+            </div>
+            <div class="form-group">
+                <label>Category</label>
+                <select class="form-control" name="kind"></select>
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" name="itemName">
+            </div>
+            <div class="form-group">
+                <label>Maker</label>
+                <select class="form-control" name="maker"></select>
+            </div>
+            <div class="form-group">
+                <label>Import Price</label>
+                <input type="number" class="form-control" name="importPrice">
+            </div>
+            <div class="form-group">
+                <label>Export Profit</label>
+                <input type="number" class="form-control" name="exportProfit">
+            </div>
+            <div class="form-group">
+                <label>Unit</label>
+                <input type="text" class="form-control" name="unit">
+            </div>
+            <div class="form-group">
+                <label>Lower Limit</label>
+                <input type="number" class="form-control" name="minimum">
+            </div>
+            <div class="form-group">
+                <label>Upper Limit</label>
+                <input type="number" class="form-control" name="maximum">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="col-md-8" id="erroInfo"></div>
+            <div class="col-md-4">
+                <button class="btn btn-success" id="confirmNewGood">Confirm</button>
+                <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/tabs/newGood.js"></script>
